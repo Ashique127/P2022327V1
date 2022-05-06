@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify login page properly display",
+        "description": "",
+        "id": "login-page-is-properly-displayed;verify-login-page-properly-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6880171600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitionP2022327V1.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479362600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify login page properly displayed",
+            "match": {
+              "location": "StepDefinitionP2022327V1.verify_login_page_properly_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1090565300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input username and password and click",
+            "match": {
+              "location": "StepDefinitionP2022327V1.input_username_and_password_and_click()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 687692400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify customer successfully logged in",
+            "match": {
+              "location": "StepDefinitionP2022327V1.verify_customer_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 756994900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Inventory page is displayed properly",
+            "match": {
+              "location": "StepDefinitionP2022327V1.verify_Inventory_page_is_displayed_properly()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login page is properly displayed",
+    "description": "",
+    "id": "login-page-is-properly-displayed",
+    "keyword": "Feature",
+    "uri": "HomePageP2022327V1.feature"
+  }
+]
